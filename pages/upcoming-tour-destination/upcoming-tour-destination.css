@@ -1,0 +1,177 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 48px;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 40px;
+}
+
+h3 {
+  font-size: 32px;
+  line-height: 32px;
+}
+
+h4 {
+  font-size: 24px; 
+  line-height: 30px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+img {
+  object-fit: cover;
+}
+
+section {
+  margin-top: 48px;
+  margin-bottom: 48px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+/*--Header-section--*/
+
+header {
+  background-image: url(../upcoming-tour-destination/upcoming-tour-destination-images/sunrise.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(0 0 0 / 70%);
+  background-blend-mode: multiply;
+  color: white;
+  min-height: 100vh;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 25px;
+  padding-right: 25px;
+  align-items: center;
+}
+.navbar h4 {
+}
+.navbar span {
+  font-weight: 0;
+}
+.navbar ul {
+}
+.navbar ul li {
+  display: inline;
+  margin-left: 40px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+}
+
+/*--Banner-section--*/
+
+.banner {
+  text-align: center;
+}
+.banner h3 {
+  margin-top: 70px;
+  margin-bottom: 0;
+}
+.banner span {
+  height: 5px;
+  width: 200px;
+  background-color: red;
+  display: inline-block;
+}
+.banner h1 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.banner button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: red;
+  color: white;
+  letter-spacing: 3px;
+  border-width: 5px;
+  border-color: red;
+  border-radius: 25px;
+  padding: 10px;
+  font-size: 20px;
+  transition: all 0.3s linear;
+}
+
+.banner button:hover {
+  background-color: transparent;
+  letter-spacing: 5px;
+}
+
+/*--Upcoming tour & Destination-section--*/
+
+.upcoming-tour-destination-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.upcoming-tour-destination-section-box{}
+.upcoming-tour-destination-section h4 {
+  margin-bottom: 0;
+}
+.upcoming-tour-destination-section span {
+  height: 5px;
+  width: 200px;
+  background-color: red;
+  display: inline-block;
+}
+.upcoming-tour-destination-section p {
+  text-align: justify;
+}
+.upcoming-tour-destination-section a {
+  text-decoration: none;
+  color: red;
+}
+.upcoming-tour-destination-section img {
+ 
+}
+.upcoming-tour-destination-section-pic-1 {
+  width: 400px;
+  height: 400px;
+  padding-bottom: 10px;
+}
+.upcoming-tour-destination-section-pic-2 {
+  width: 400px;
+  height: 500px;
+  padding-bottom: 10px;
+}
+
+/*--Footer-section--*/
+
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 70px;
+
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 20px;
+}
